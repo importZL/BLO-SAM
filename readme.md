@@ -4,7 +4,7 @@ This repository contains the implementation of the following paper:
 
 ## Overview
 <img src="figures/method_overview.png" height="260px"/>  
-Wwe introduce BLO-SAM, a bi-level optimization (BLO) method addressing the need for finetuning model parameters and prompt embedding on two subsets of the training data to reduce overfitting. Illustrated in ![Figure](figures/method_overview.png), Bi-SAM involves two sets of learnable parameters: LoRA layers and unfrozen model components, and the prompt embedding. These components undergo optimization through two levels of nested optimization problems.
+Wwe introduce BLO-SAM, a bi-level optimization (BLO) method addressing the need for finetuning model parameters and prompt embedding on two subsets of the training data to reduce overfitting. Illustrated in [overview of method](figures/method_overview.png), Bi-SAM involves two sets of learnable parameters: LoRA layers and unfrozen model components, and the prompt embedding. These components undergo optimization through two levels of nested optimization problems.
 
 ## Prerequisites
 - Linux (We tested our codes on Ubuntu 18.04)
