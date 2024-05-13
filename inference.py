@@ -29,7 +29,7 @@ parser.add_argument('--input_size', type=int, default=256, help='The input size 
 parser.add_argument('--seed', type=int, default=1234, help='random seed')
 parser.add_argument('--is_savenii', action='store_true', help='Whether to save results during inference')
 parser.add_argument('--deterministic', type=int, default=1, help='whether use deterministic training')
-parser.add_argument('--ckpt', type=str, default='../Auto_SAMed/checkpoints/sam_vit_b_01ec64.pth', help='Pretrained checkpoint')
+parser.add_argument('--ckpt', type=str, default='/data1/li/Auto_SAMed/checkpoints/sam_vit_b_01ec64.pth', help='Pretrained checkpoint')
 parser.add_argument('--lora_ckpt', type=str, default='checkpoints/epoch_159.pth', help='The checkpoint from LoRA')
 parser.add_argument('--vit_name', type=str, default='vit_b', help='Select one vit model')
 parser.add_argument('--rank', type=int, default=4, help='Rank for LoRA adaptation')

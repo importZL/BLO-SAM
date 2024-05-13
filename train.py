@@ -29,7 +29,7 @@ parser.add_argument('--prompt_base_lr', type=float, default=0.005, help='prompt 
 parser.add_argument('--img_size', type=int, default=256, help='input patch size of network input')
 parser.add_argument('--seed', type=int, default=42, help='random seed')
 parser.add_argument('--vit_name', type=str, default='vit_b', help='select one vit model')
-parser.add_argument('--ckpt', type=str, default='../SAM/checkpoints/sam_vit_b_01ec64.pth', help='Pretrained checkpoint')
+parser.add_argument('--ckpt', type=str, default='/data1/li/Auto_SAMed/checkpoints/sam_vit_b_01ec64.pth', help='Pretrained checkpoint')
 parser.add_argument('--lora_ckpt', type=str, default=None, help='Finetuned lora checkpoint')
 parser.add_argument('--rank', type=int, default=4, help='Rank for LoRA adaptation')
 parser.add_argument('--warmup', action='store_true', help='If activated, warp up the learning from a lower lr to the base_lr')
