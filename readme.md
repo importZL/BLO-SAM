@@ -9,14 +9,10 @@ Wwe introduce BLO-SAM, a bi-level optimization (BLO) method addressing the need 
 ## Prerequisites
 - Linux (We tested our codes on Ubuntu 18.04)
 - Anaconda
-- Python 3.7.11
-- Pytorch 1.9.1
 
 To get started, first please build the environment
 ```
-conda create -n BLO-SAM python=3.7.11
-conda activate BLO-SAM
-pip install -r requirements.txt
+conda env create -f blo-sam.yml
 ```
 
 ## Training
