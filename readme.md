@@ -34,6 +34,17 @@ bash inference.sh
 ```
 The root settings in [inference.sh](inference.sh) file are supposed to be changed to `<Your path>`.
 
+## Citation
+If you find this project useful in your research, please consider citing:
+```bash
+@article{zhang2024blo,
+  title={BLO-SAM: Bi-level Optimization Based Overfitting-Preventing Finetuning of SAM},
+  author={Zhang, Li and Liang, Youwei and Xie, Pengtao},
+  journal={arXiv preprint arXiv:2402.16338},
+  year={2024}
+}
+```
+
 
 ## License
 This work is licensed under MIT license. See the [LICENSE](LICENSE) for details.
